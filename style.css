@@ -1,25 +1,29 @@
-header{
-    font-size: 3.5em;
+header {
+    font-size: 3em;
     margin-bottom: 0.25em;
     margin-top: 0.5em;
     margin-left: 0.5em;
     margin-right: 7.5em;
     color: #764080;
 }
-footer{
+
+footer {
     margin-top: 3.5em;
 }
+
 nav {
     padding: 1px;
     margin-bottom: 25px;
     font-size: 0.8em;
 }
+
 nav ul {
     margin-left: 0;
     padding-left: 0;
     display: inline;
     border: none;
 }
+
 nav ul li {
     margin-left: 0;
     padding-left: 2px;
@@ -27,20 +31,28 @@ nav ul li {
     list-style: none;
     display: inline;
 }
-table{
+table {
     margin-bottom: 1.9em;
-    border:  1px #764080;
+    border: 1px #764080;
 }
-table td{
+table td {
     text-align: center;
 }
-table caption{
+table caption {
     text-align: left;
     margin-bottom: 1.0em;
     margin-top: 0.9em;
     font-size: 1.1em;
     font-weight: bold;
 }
-h1{
-    font-size: 1.0em;
+h2{
+    font-size:1.5em;
+}
+section img,video{
+    position:relative;
+    float:right;
+}
+section p{
+    position:relative;
+    float:left;
 }
