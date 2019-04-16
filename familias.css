@@ -49,7 +49,7 @@ footer {
     height: 40px;
 }
 section img, video {
-    position: center;
+    position: relative;
     float: initial;
 }
 
