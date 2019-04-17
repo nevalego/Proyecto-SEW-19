@@ -3,6 +3,11 @@ header h1{
     margin: 0.5em 0.5em 0.5em 0.5em;
     color: #764080;
 }
+article {
+    position: relative;
+    float:right;
+    margin-left: 20px;
+}
 nav {
     margin: 0.5em 0.5em 2em 1em;
     font-size: 1.5em;
