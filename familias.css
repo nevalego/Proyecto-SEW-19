@@ -23,6 +23,8 @@ nav ul li {
 table {
     margin-bottom: 1.9em;
     border: 1px #764080;
+    position: relative;
+    float: left;
 }
 table td {
     text-align: center;
@@ -36,6 +38,8 @@ table caption {
 }
 h2 {
     font-size: 1.5em;
+    position: relative;
+    float:left;
 }
 html {
     min-height: 100%;
@@ -48,11 +52,10 @@ footer {
     width: 100%;
     height: 40px;
 }
-section img, video {
+section img {
     position: relative;
-    float: initial;
+    float: left;
 }
-
 section p {
     position: relative;
     float: left;

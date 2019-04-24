@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE temporadas SYSTEM "temporadas.dtd">
+<temporadas>
+    <temporada t="1">
+        <episodios>
+            <episodio ep="1" titulo="Secretos">
+                <resumen>
+                    Dos meses después de la muerte de su padre, Jonas le cuenta a su terapeuta que continua viendo a su
+                    padre en sus sueños ya que cree que el trata de explicarle el porque tomo la decisión de acabar con
+                    su vida; y después de tener esta conversación, Jonas regresa a la escuela y allí es recibido por uno
+                    de sus mejores amigos. En otro lugar; los papás de Erik Obendorf llegan a la estación de policía
+                    para exigirle a los agentes una explicación sobre el paradero de su hijo; quien lleva desaparecido
+                    desde hace trece días. Mientras tanto en la escuela, Katharina convoca a los estudiantes a una
+                    asamblea para hablar de la desaparición de su compañero Erik y pedirles una colaboración para dar de
+                    una vez por todas con el paradero de este joven. Entre tanto, la mamá de Ulrich le cuenta a su hijo
+                    que nuevamente vio algo extraño en el bosque y por esto quiere mostrarle la prueba que logro
+                    encontrar
+                </resumen>
+                <suceso>
+                    <descripcion>Suicidio del Michael</descripcion>
+                    <año>2019</año>
+                    <lugar>Winden</lugar>
+                    <personaje>
+                        <sexo>Masculino</sexo>
+                        <nombre>Michael</nombre>
+                        <familia>Kahnwald</familia>
+                        <edad>44</edad>
+                        <contexto>Michael es el padre de Jonas Kahnwald</contexto>
+                    </personaje>
+                </suceso>
+                <suceso>
+                    <descripcion>Desaparición de los niños Erik y Mikkel Nielsen</descripcion>
+                    <año>2019</año>
+                    <lugar>Winden</lugar>
+                    <personaje>
+                        <sexo>Masculino</sexo>
+                        <nombre>Mikkel</nombre>
+                        <familia>Nielsen</familia>
+                        <edad>11</edad>
+                        <contexto>Es el hermano de Martha y Magnus. Sus padres son el
+                            policía Ulrich Nielsen y la directora del instituto Katharina
+                        </contexto>
+                    </personaje>
+                    <personaje>
+                        <sexo>Masculino</sexo>
+                        <nombre>Erik</nombre>
+                        <familia>Obendorf</familia>
+                        <edad>15</edad>
+                        <contexto>Erik se escapa de casa. Junto a su padre Jürgen vendía
+                            drogas en el instituto para comprarse una moto. Una bolsa de
+                            estupefacientes se queda escondida en la entrada a las cuevas de Winden.
+                        </contexto>
+                    </personaje>
+                </suceso>
+            </episodio>
+            <episodio ep="2" titulo="Mentiras">
+                <resumen>La policía queda desconcertada tras un descubrimiento macabro, y Ulrich busca una orden de
+                    allanamiento para la planta de energía. Un extraño se registra en el hotel
+                </resumen>
+            </episodio>
+            <episodio ep="3" titulo="Pasado y Presente">
+                <resumen>El capítulo comienza cuando Mikkel, después de encontrarse con un muy joven Ulrich y una joven
+                    Katherina al llegar a la que sería su casa, entra al hogar y se encuentra con , deprimida por no
+                    encontrar a su hijo desaparecido Meds. Cuando ve que Mikkel entra a la casa, le pregunta dónde está
+                    su hijo, debido a la ansiedad y desesperación, lo termina lastimando cosa que Mikkel sale
+                    rápidamente del lugar.
+                </resumen>
+            </episodio>
+            <episodio ep="4" titulo="Vidas dobles">
+                <resumen>
+                    Extraños acontecimientos provocan a Charlotte una sensación de déjà vu, y sospecha que Peter oculta
+                    algo. Franziska pierde los nervios cuando Magnus la acorrala
+                </resumen>
+            </episodio>
+            <episodio ep="5" titulo="Verdades">
+                <resumen>La obsesión de Hannah con Ulrich se vuelve malsana, el desconocido le pide a Regina que
+                    entregue un paquete y Martha se encuentra dividida entre Jonas y Bartosz
+                </resumen>
+            </episodio>
+            <episodio ep="6" titulo="Sic mundus creatus est">
+                <resumen>Ulrich investiga el pasado en busca de respuestas y desentierra perturbadores secretos
+                    familiares. Equipado con nuevas herramientas, Jonas se adentra en la caverna.
+                </resumen>
+            </episodio>
+            <episodio ep="7" titulo="Encrucijadas">
+                <resumen>Ulrich busca a la doctora de medicina legal para preguntarle que haran con el cuerpo del niño
+                    que encontraron en el bosque ya que quiere saber si es posible que este cuerpo se haya conservado
+                    por más de treinta y tres años. Jonas llega a su escuela y al estar allí se da cuenta que las cosas
+                    parecen estar fuera de control y por esto se acerca una chica para preguntarle en que fecha se
+                    encuentran. Después de conseguir el permiso para entrar a la planta nuclear; Charlotte se dirige a
+                    este lugar con el fin de encontrar pistas que la lleven a dar con el paradero de Mikkel; y Ulrich
+                    trata de indagar en los expedientes que pertenecían a la desaparición de su hermano. Al encontrarse
+                    con el jefe de policía; Jonas trata de explicarle que se siente muy enfermo y por esto se dirige al
+                    hospital; y después de revisar los expedientes de su hermano; Ulrich llama a Charlotte para decirle
+                    que su suegro puede estar relacionado con la desaparición de su hermano y lo que esta sucediendo
+                    ahora con su hijo y los otros dos niños
+                </resumen>
+            </episodio>
+            <episodio ep="8" titulo="Lo que se siembra, eso mismo se cosecha">
+                <resumen>Charlotte le pregunta a su hija menor si ella sabe que les pudo pasar a sus compañeros de clase
+                    y ademas quiere que le cuente con detalles como era el sujeto con el que se encontro de regreso a
+                    casa; despues de hablar con su hija, Charlotte le pide a su esposo que le diga la verdad y le
+                    asegure que el no tuvo nada que ver con las desapariciones de los tres niños. En otro lugar; Jonas
+                    le pregunta a su mamá como se conoció con su papá; y ademas quiere saber como era el antes de que
+                    conocieran sobre su enfermedad. Katharina le pide a sus hijos que piensen en el dolor que esta
+                    sintiendo y no vayan a la escuela.
+                </resumen>
+            </episodio>
+            <episodio ep="9" titulo="Todo ocurre ahora">
+                <resumen>Al verse con su hijo; Helge le dice a este que algo va suceder otra vez y tiene que buscar a
+                    alguien muy importante para decirle que se detenga. Jonas decide ir hasta la cueva en donde
+                    desapareció Mikkel; sin saber que estaba siendo vigilado. Mientras la doctora examina los cadáveres
+                    de las aves; Charlotte le confiesa a esta mujer que hace treinta y tres años vivió algo similar y
+                    para ella parece estar conectado lo que paso en esa época con lo que esta pasando en la actualidad y
+                    Katharina le cuenta a su esposo que su compañera no logro obtener el permiso para registrar la
+                    central nuclear. Tras conocer un nuevo caso de desaparicion; las personas de Winden le reclaman a
+                    las autoridades por no tener el control sobre los extraños hechos que se han venido presentando en
+                    los ultimos dias
+                </resumen>
+            </episodio>
+            <episodio ep="10" titulo="Alfa y omega">
+                <resumen>Peter se lleva una gran sorpresa. Jonas descubre la verdad sobre su familia, pero los misterios
+                    no han acabado. Helge afronta un sacrificio
+                </resumen>
+            </episodio>
+        </episodios>
+    </temporada>
+</temporadas>
