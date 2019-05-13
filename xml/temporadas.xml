@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE temporadas SYSTEM "temporadas.dtd">
+<!DOCTYPE temporadas SYSTEM "C:\Users\nerea\Desktop\Proyecto SEW 19\Proyecto-SEW-19\xml\temporadas.dtd">
 <temporadas>
     <temporada t="1">
         <episodios>
@@ -17,21 +17,23 @@
                     encontrar
                 </resumen>
                 <suceso>
-                    <descripcion>Suicidio del Michael</descripcion>
+                    <descripcion>Suicidio de Michael</descripcion>
                     <año>2019</año>
-                    <lugar>Winden</lugar>
+                    <lugar>Cabaña en su casa,Winden</lugar>
                     <personaje>
                         <sexo>Masculino</sexo>
                         <nombre>Michael</nombre>
                         <familia>Kahnwald</familia>
                         <edad>44</edad>
-                        <contexto>Michael es el padre de Jonas Kahnwald</contexto>
+                        <contexto>Michael es el padre de Jonas Kahnwald. Deja una carta
+                            a su madre adoptiva, enfermera en el hospital de Windem en 1986.
+                        </contexto>
                     </personaje>
                 </suceso>
                 <suceso>
                     <descripcion>Desaparición de los niños Erik y Mikkel Nielsen</descripcion>
                     <año>2019</año>
-                    <lugar>Winden</lugar>
+                    <lugar>Cuevas de Winden</lugar>
                     <personaje>
                         <sexo>Masculino</sexo>
                         <nombre>Mikkel</nombre>
@@ -46,7 +48,7 @@
                         <nombre>Erik</nombre>
                         <familia>Obendorf</familia>
                         <edad>15</edad>
-                        <contexto>Erik se escapa de casa. Junto a su padre Jürgen vendía
+                        <contexto>Erik se había escapado de casa. Junto a su padre Jürgen vendía
                             drogas en el instituto para comprarse una moto. Una bolsa de
                             estupefacientes se queda escondida en la entrada a las cuevas de Winden.
                         </contexto>
