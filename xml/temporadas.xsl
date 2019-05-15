@@ -17,38 +17,44 @@
                 </header>
                 <main>
                     <xsl:for-each select="temporadas/temporada">
+                        <h2>Temporada <xsl:value-of select="@t"/></h2>
                             <section>
-                                <h2>
-                                    <xsl:value-of select="titulo"/>
-                                </h2>
-                                <h3>Episodios:</h3>
+
                                 <ul>
                                     <xsl:for-each select="episodios/episodio">
 
-                                        <section>
                                         <h3>
-                                        Episodio <xsl:value-of select="ep"/> :
-                                        <xsl:value-of select="titulo"/>
+                                        Episodio <xsl:value-of select="@ep"/> :
+                                        <xsl:value-of select="@titulo"/>
                                         </h3>
 
                                         <h4>Resumen:</h4>
                                         <p>
                                             <xsl:value-of select="resumen"/>
                                         </p>
-                                        <h5>Sucesos</h5>
-                                        <ul>
-                                            <xsl:for-each select="episodio/suceso">
-                                                <li>
+                                        <h4>Sucesos</h4>
+                                        <section>
+                                            <xsl:for-each select="sucesos/suceso">
+                                                <p>Descripción del suceso:
                                                     <xsl:value-of select="descripcion"/>
-                                                </li>
+                                                </p>
+                                                <p>Año: <xsl:value-of select="año"/>
+                                                </p>
+                                                <p>Lugar: <xsl:value-of select="lugar"/>
+                                                </p>
+                                            <xsl:for-each select="personajes/personaje">
+                                                <p><xsl:value-of select="familia"/>,
+                                                    <xsl:value-of select="nombre"/> de 
+                                                <xsl:value-of select="edad"/> años.
+                                                <xsl:value-of select="contexto"/></p>
                                             </xsl:for-each>
-                                        </ul>
+
+                                            </xsl:for-each>
+                                        <section/>
 
                                         </section>
                                     </xsl:for-each>
                                 </ul>
-
-
                             </section>
                     </xsl:for-each>
                 </main>

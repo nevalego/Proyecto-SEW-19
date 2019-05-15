@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE temporadas SYSTEM "C:\Users\nerea\Desktop\Proyecto SEW 19\Proyecto-SEW-19\xml\temporadas.dtd">
+<?xml-stylesheet type="text/xsl" href="temporadas.xsl" ?>
 <temporadas>
     <temporada t="1">
         <episodios>
@@ -16,44 +16,50 @@
                     que nuevamente vio algo extraño en el bosque y por esto quiere mostrarle la prueba que logro
                     encontrar
                 </resumen>
-                <suceso>
-                    <descripcion>Suicidio de Michael</descripcion>
-                    <año>2019</año>
-                    <lugar>Cabaña en su casa,Winden</lugar>
-                    <personaje>
-                        <sexo>Masculino</sexo>
-                        <nombre>Michael</nombre>
-                        <familia>Kahnwald</familia>
-                        <edad>44</edad>
-                        <contexto>Michael es el padre de Jonas Kahnwald. Deja una carta
-                            a su madre adoptiva, enfermera en el hospital de Windem en 1986.
-                        </contexto>
-                    </personaje>
-                </suceso>
-                <suceso>
-                    <descripcion>Desaparición de los niños Erik y Mikkel Nielsen</descripcion>
-                    <año>2019</año>
-                    <lugar>Cuevas de Winden</lugar>
-                    <personaje>
-                        <sexo>Masculino</sexo>
-                        <nombre>Mikkel</nombre>
-                        <familia>Nielsen</familia>
-                        <edad>11</edad>
-                        <contexto>Es el hermano de Martha y Magnus. Sus padres son el
-                            policía Ulrich Nielsen y la directora del instituto Katharina
-                        </contexto>
-                    </personaje>
-                    <personaje>
-                        <sexo>Masculino</sexo>
-                        <nombre>Erik</nombre>
-                        <familia>Obendorf</familia>
-                        <edad>15</edad>
-                        <contexto>Erik se había escapado de casa. Junto a su padre Jürgen vendía
-                            drogas en el instituto para comprarse una moto. Una bolsa de
-                            estupefacientes se queda escondida en la entrada a las cuevas de Winden.
-                        </contexto>
-                    </personaje>
-                </suceso>
+                <sucesos>
+                    <suceso>
+                        <descripcion>Suicidio de Michael</descripcion>
+                        <año>2019</año>
+                        <lugar>Cabaña de los Kahnwald, Winden</lugar>
+                        <personajes>
+                            <personaje>
+                                <sexo>Masculino</sexo>
+                                <nombre>Michael</nombre>
+                                <familia>Kahnwald</familia>
+                                <edad>44</edad>
+                                <contexto>Michael es el padre de Jonas Kahnwald. Deja una carta
+                                    a su madre adoptiva, enfermera en el hospital de Windem en 1986.
+                                </contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                    <suceso>
+                        <descripcion>Desaparición de los niños Erik y Mikkel Nielsen</descripcion>
+                        <año>2019</año>
+                        <lugar>Cuevas de Winden</lugar>
+                        <personajes>
+                            <personaje>
+                                <sexo>Masculino</sexo>
+                                <nombre>Mikkel</nombre>
+                                <familia>Nielsen</familia>
+                                <edad>11</edad>
+                                <contexto>Es el hermano de Martha y Magnus. Sus padres son el
+                                    policía Ulrich Nielsen y la directora del instituto Katharina
+                                </contexto>
+                            </personaje>
+                            <personaje>
+                                <sexo>Masculino</sexo>
+                                <nombre>Erik</nombre>
+                                <familia>Obendorf</familia>
+                                <edad>15</edad>
+                                <contexto>Erik se había escapado de casa. Junto a su padre Jürgen vendía
+                                    drogas en el instituto para comprarse una moto. Una bolsa de
+                                    estupefacientes se queda escondida en la entrada a las cuevas de Winden.
+                                </contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                </sucesos>
             </episodio>
             <episodio ep="2" titulo="Mentiras">
                 <resumen>La policía queda desconcertada tras un descubrimiento macabro, y Ulrich busca una orden de
