@@ -17,45 +17,39 @@
                 </header>
                 <main>
                     <xsl:for-each select="temporadas/temporada">
-                        <h2>Temporada <xsl:value-of select="@t"/></h2>
+                        <h2>Temporada
+                            <xsl:value-of select="@t"/>
+                        </h2>
+
+                        <xsl:for-each select="episodios/episodio">
+                            <h3>Episodio
+                                <xsl:value-of select="@ep"/> :
+                                <xsl:value-of select="@titulo"/>
+                            </h3>
                             <section>
-
-                                <ul>
-                                    <xsl:for-each select="episodios/episodio">
-
-                                        <h3>
-                                        Episodio <xsl:value-of select="@ep"/> :
-                                        <xsl:value-of select="@titulo"/>
-                                        </h3>
-
-                                        <h4>Resumen:</h4>
-                                        <p>
-                                            <xsl:value-of select="resumen"/>
-                                        </p>
-                                        <h4>Sucesos</h4>
-                                        <section>
-                                            <xsl:for-each select="sucesos/suceso">
-                                                <p>Descripción del suceso:
-                                                    <xsl:value-of select="descripcion"/>
-                                                </p>
-                                                <p>Año: <xsl:value-of select="año"/>
-                                                </p>
-                                                <p>Lugar: <xsl:value-of select="lugar"/>
-                                                </p>
-                                            <xsl:for-each select="personajes/personaje">
-                                                <p><xsl:value-of select="familia"/>,
-                                                    <xsl:value-of select="nombre"/> de 
-                                                <xsl:value-of select="edad"/> años.
-                                                <xsl:value-of select="contexto"/></p>
-                                            </xsl:for-each>
-
-                                            </xsl:for-each>
-                                        <section/>
-
-                                        </section>
-                                    </xsl:for-each>
-                                </ul>
+                                <xsl:value-of select="resumen"/>
                             </section>
+                            <xsl:for-each select="sucesos/suceso">
+                                <h4>Suceso : <xsl:value-of select="descripcion"/>
+                                </h4>
+                                <section>
+                                <p>Año
+                                    <xsl:value-of select="año"/>,
+                                    <xsl:value-of select="lugar"/>
+                                </p>
+                                    <p>Personajes implicados: </p>
+                                    <ul>
+                                <xsl:for-each select="personajes/personaje">
+                                    <li><xsl:value-of select="familia"/>,
+                                        <xsl:value-of select="nombre"/> de
+                                        <xsl:value-of select="edad"/> años.
+                                        <xsl:value-of select="contexto"/>
+                                    </li>
+                                </xsl:for-each>
+                                    </ul>
+                                </section>
+                            </xsl:for-each>
+                        </xsl:for-each>
                     </xsl:for-each>
                 </main>
             </body>

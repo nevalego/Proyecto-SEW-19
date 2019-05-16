@@ -59,12 +59,79 @@
                             </personaje>
                         </personajes>
                     </suceso>
+                    <suceso>
+                        <descripcion>La policía encuentra el cuerpo de un niño con la cara
+                        y oídos fundidos con un walkman y una moneda del 86</descripcion>
+                        <año>2019</año>
+                        <lugar>En el bosque de Windem</lugar>
+                        <personajes>
+                            <personaje>
+                                <sexo>Masculino</sexo>
+                                <nombre>Ulrich</nombre>
+                                <familia>Nielsen</familia>
+                                <edad>48</edad>
+                                <contexto>Ulrich se da cuenta de que el cuerpo pertenece a
+                                su hermano Mads desaparecido en 1986</contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
                 </sucesos>
             </episodio>
             <episodio ep="2" titulo="Mentiras">
                 <resumen>La policía queda desconcertada tras un descubrimiento macabro, y Ulrich busca una orden de
                     allanamiento para la planta de energía. Un extraño se registra en el hotel
                 </resumen>
+                <sucesos>
+                    <suceso>
+                        <descripcion>Ulrich avanza en la investigación adentrandose en las
+                        cuevas, donde ve una puerta de la central. Además encuentra monedas
+                            del 86 en cada de los Obendorf.
+                        </descripcion>
+                        <lugar>Cuevas de Windem</lugar>
+                        <año>1986</año>
+                        <personajes>
+                            <personaje>
+                                <nombre>Ulrich</nombre>
+                                <familia>Nielsen</familia>
+                                <edad>48</edad>
+                                <sexo>Masculino</sexo>
+                                <contexto>El jefe de la central no deja que la registre
+                                sin una orden de la policía</contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                    <suceso>
+                        <descripcion>Jonas encuentra un mapa sobre las cuevas de
+                        Windem que él había hecho </descripcion>
+                        <lugar>Cuevas de Windem</lugar>
+                        <año>1986</año>
+                        <personajes>
+                            <personaje>
+                                <nombre>Jonas</nombre>
+                                <familia>Kahnwald</familia>
+                                <edad>17</edad>
+                                <sexo>Masculino</sexo>
+                                <contexto>Michael había dibujado un mapa que
+                                muestra los recorridos de las cuevas y adonde llevan</contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                    <suceso>
+                        <descripcion>Mikkel aparece en las cuevas y busca su casa, pero se
+                        encuentra a su padre con 15 años</descripcion>
+                        <lugar>Cuevas de Windem</lugar>
+                        <año>1986</año>
+                        <personajes>
+                            <personaje>
+                                <nombre>Mikkel</nombre>
+                                <familia>Nielsen</familia>
+                                <edad>11</edad>
+                                <sexo>Masculino</sexo>
+                                <contexto>En 2019 desaparece y vuelve a aparecer en 1986</contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                </sucesos>
             </episodio>
             <episodio ep="3" titulo="Pasado y Presente">
                 <resumen>El capítulo comienza cuando Mikkel, después de encontrarse con un muy joven Ulrich y una joven
@@ -73,6 +140,12 @@
                     su hijo, debido a la ansiedad y desesperación, lo termina lastimando cosa que Mikkel sale
                     rápidamente del lugar.
                 </resumen>
+                <sucesos>
+                    <suceso>
+                        <descripcion>Mikkel está herido y la policía de Windem le lleva al hospital,
+                        donde la enfermera Inés Kahnwald le cuida</descripcion>
+                    </suceso>
+                </sucesos>
             </episodio>
             <episodio ep="4" titulo="Vidas dobles">
                 <resumen>
