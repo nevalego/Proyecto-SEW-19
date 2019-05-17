@@ -30,6 +30,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element ref="resumen" />
+        <xs:element ref="duracion" />
         <xs:element minOccurs="1" maxOccurs="30" ref="suceso" />
       </xs:sequence>
       <xs:attribute name="ep" use="required"  type="xs:decimal">
@@ -69,9 +70,11 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="resumen" type="xs:string" />
+  <xs:element name="duracion" type="xs:string"/>
   <xs:element name="sexo" type="xs:string" />
   <xs:element name="nombre" type="xs:string" />
   <xs:element name="familia" type="xs:string" />
   <xs:element name="edad" type="xs:gYear" />
   <xs:element name="contexto" type="xs:string" />
+
 </xs:schema>

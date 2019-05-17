@@ -25,9 +25,11 @@
                             <h3>Episodio
                                 <xsl:value-of select="@ep"/> :
                                 <xsl:value-of select="@titulo"/>
+                                (<xsl:value-of select="duracion"/>)
                             </h3>
                             <section>
                                 <xsl:value-of select="resumen"/>
+
                             </section>
                             <xsl:for-each select="sucesos/suceso">
                                 <h4>Suceso : <xsl:value-of select="descripcion"/>

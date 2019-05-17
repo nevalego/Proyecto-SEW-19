@@ -16,6 +16,7 @@
                     que nuevamente vio algo extraño en el bosque y por esto quiere mostrarle la prueba que logro
                     encontrar
                 </resumen>
+                <duracion>51 min</duracion>
                 <sucesos>
                     <suceso>
                         <descripcion>Suicidio de Michael</descripcion>
@@ -81,6 +82,7 @@
                 <resumen>La policía queda desconcertada tras un descubrimiento macabro, y Ulrich busca una orden de
                     allanamiento para la planta de energía. Un extraño se registra en el hotel
                 </resumen>
+                <duracion>44 min</duracion>
                 <sucesos>
                     <suceso>
                         <descripcion>Ulrich avanza en la investigación adentrandose en las
@@ -140,6 +142,7 @@
                     su hijo, debido a la ansiedad y desesperación, lo termina lastimando cosa que Mikkel sale
                     rápidamente del lugar.
                 </resumen>
+                <duracion>45 min</duracion>
                 <sucesos>
                     <suceso>
                         <descripcion>Mikkel está herido y la policía de Windem le lleva al hospital,
@@ -152,11 +155,13 @@
                     Extraños acontecimientos provocan a Charlotte una sensación de déjà vu, y sospecha que Peter oculta
                     algo. Franziska pierde los nervios cuando Magnus la acorrala
                 </resumen>
+                <duracion>47 min</duracion>
             </episodio>
             <episodio ep="5" titulo="Verdades">
                 <resumen>La obsesión de Hannah con Ulrich se vuelve malsana, el desconocido le pide a Regina que
                     entregue un paquete y Martha se encuentra dividida entre Jonas y Bartosz
                 </resumen>
+                <duracion>45 min</duracion>
             </episodio>
             <episodio ep="6" titulo="Sic mundus creatus est">
                 <resumen>Ulrich investiga el pasado en busca de respuestas y desentierra perturbadores secretos
@@ -176,6 +181,7 @@
                     que su suegro puede estar relacionado con la desaparición de su hermano y lo que esta sucediendo
                     ahora con su hijo y los otros dos niños
                 </resumen>
+                <duracion>51 min</duracion>
             </episodio>
             <episodio ep="8" titulo="Lo que se siembra, eso mismo se cosecha">
                 <resumen>Charlotte le pregunta a su hija menor si ella sabe que les pudo pasar a sus compañeros de clase
@@ -186,6 +192,7 @@
                     conocieran sobre su enfermedad. Katharina le pide a sus hijos que piensen en el dolor que esta
                     sintiendo y no vayan a la escuela.
                 </resumen>
+                <duracion>50 min</duracion>
             </episodio>
             <episodio ep="9" titulo="Todo ocurre ahora">
                 <resumen>Al verse con su hijo; Helge le dice a este que algo va suceder otra vez y tiene que buscar a
@@ -198,11 +205,33 @@
                     las autoridades por no tener el control sobre los extraños hechos que se han venido presentando en
                     los ultimos dias
                 </resumen>
+                <duracion>55 min</duracion>
             </episodio>
             <episodio ep="10" titulo="Alfa y omega">
                 <resumen>Peter se lleva una gran sorpresa. Jonas descubre la verdad sobre su familia, pero los misterios
                     no han acabado. Helge afronta un sacrificio
                 </resumen>
+                <duracion>57 min</duracion>
+                <sucesos>
+                    <suceso>
+                        <descripcion>
+                            Jonas conoce a su yo del futuro, que le deja encerrado en la sala de papel pintado
+                            en el sótano de los Doppler, para que cuando se produce la destrucción del agujero, que
+                            en realidad,  es la creación de una conexión en ese mismo espacio entre 1953 y 1986.
+                        </descripcion>
+                        <año>1953-1986</año>
+                        <lugar>Sótano de la cabaña de los Doppler, en el bosque de Windem</lugar>
+                        <personajes>
+                            <personaje>
+                                <nombre>Helge</nombre>
+                                <familia>Doppler</familia>
+                                <sexo>Masculino</sexo>
+                                <edad>8 años</edad>
+                                <contexto></contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                </sucesos>
             </episodio>
         </episodios>
     </temporada>
