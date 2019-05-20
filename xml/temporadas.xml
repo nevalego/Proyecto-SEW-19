@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<?xml-stylesheet type="text/xsl" href="temporadas.xsl" ?>
+<?xml-stylesheet type="text/dtd" href="temporadas.dtd" ?>
 <temporadas>
     <temporada t="1">
         <episodios>
-            <episodio ep="1" titulo="Secretos">
+            <episodio ep="1" titulo="Secretos" im="ep10.jpg">
                 <resumen>
                     Dos meses después de la muerte de su padre, Jonas le cuenta a su terapeuta que continua viendo a su
                     padre en sus sueños ya que cree que el trata de explicarle el porque tomo la decisión de acabar con
@@ -167,6 +167,7 @@
                 <resumen>Ulrich investiga el pasado en busca de respuestas y desentierra perturbadores secretos
                     familiares. Equipado con nuevas herramientas, Jonas se adentra en la caverna.
                 </resumen>
+                <duracion>49 min</duracion>
             </episodio>
             <episodio ep="7" titulo="Encrucijadas">
                 <resumen>Ulrich busca a la doctora de medicina legal para preguntarle que haran con el cuerpo del niño
