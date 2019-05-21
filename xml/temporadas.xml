@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<?xml-stylesheet type="text/dtd" href="temporadas.dtd" ?>
+<?xml-stylesheet type="text/xsl" href="temporadas.xsl   " ?>
 <temporadas>
     <temporada t="1">
         <episodios>
@@ -62,7 +62,8 @@
                     </suceso>
                     <suceso>
                         <descripcion>La policía encuentra el cuerpo de un niño con la cara
-                        y oídos fundidos con un walkman y una moneda del 86</descripcion>
+                            y oídos fundidos con un walkman y una moneda del 86
+                        </descripcion>
                         <año>2019</año>
                         <lugar>En el bosque de Windem</lugar>
                         <personajes>
@@ -72,7 +73,8 @@
                                 <familia>Nielsen</familia>
                                 <edad>48</edad>
                                 <contexto>Ulrich se da cuenta de que el cuerpo pertenece a
-                                su hermano Mads desaparecido en 1986</contexto>
+                                    su hermano Mads desaparecido en 1986
+                                </contexto>
                             </personaje>
                         </personajes>
                     </suceso>
@@ -86,7 +88,7 @@
                 <sucesos>
                     <suceso>
                         <descripcion>Ulrich avanza en la investigación adentrandose en las
-                        cuevas, donde ve una puerta de la central. Además encuentra monedas
+                            cuevas, donde ve una puerta de la central. Además encuentra monedas
                             del 86 en cada de los Obendorf.
                         </descripcion>
                         <lugar>Cuevas de Windem</lugar>
@@ -98,13 +100,15 @@
                                 <edad>48</edad>
                                 <sexo>Masculino</sexo>
                                 <contexto>El jefe de la central no deja que la registre
-                                sin una orden de la policía</contexto>
+                                    sin una orden de la policía
+                                </contexto>
                             </personaje>
                         </personajes>
                     </suceso>
                     <suceso>
                         <descripcion>Jonas encuentra un mapa sobre las cuevas de
-                        Windem que él había hecho </descripcion>
+                            Windem que él había hecho
+                        </descripcion>
                         <lugar>Cuevas de Windem</lugar>
                         <año>1986</año>
                         <personajes>
@@ -114,13 +118,15 @@
                                 <edad>17</edad>
                                 <sexo>Masculino</sexo>
                                 <contexto>Michael había dibujado un mapa que
-                                muestra los recorridos de las cuevas y adonde llevan</contexto>
+                                    muestra los recorridos de las cuevas y adonde llevan
+                                </contexto>
                             </personaje>
                         </personajes>
                     </suceso>
                     <suceso>
                         <descripcion>Mikkel aparece en las cuevas y busca su casa, pero se
-                        encuentra a su padre con 15 años</descripcion>
+                            encuentra a su padre con 15 años
+                        </descripcion>
                         <lugar>Cuevas de Windem</lugar>
                         <año>1986</año>
                         <personajes>
@@ -145,21 +151,45 @@
                 <duracion>45 min</duracion>
                 <sucesos>
                     <suceso>
-                        <descripcion>Mikkel está herido y la policía de Windem le lleva al hospital,
-                        donde la enfermera Inés Kahnwald le cuida</descripcion>
+                        <descripcion>Mikkel está herido en una pierna y el policía de Windem le lleva al hospital,
+                            donde la enfermera Inés Kahnwald le cuida
+                        </descripcion>
+                        <año>1986</año>
+                        <lugar>Hospital de Windem</lugar>
+                        <personajes>
+                            <personaje>
+                                <sexo>Masculino</sexo>
+                                <nombre>Mikkel</nombre>
+                                <familia>Nielsen</familia>
+                                <edad>13 años</edad>
+                                <contexto>Mikkel en ningún momento revela su apellido, pues sabe
+                                    que sus padres aún no se han casado ni tienen hijos. Conoce a Inés, que lo
+                                    adopta y cría como Michael Kahnwald.
+                                </contexto>
+                            </personaje>
+                            <personaje>
+                                <sexo>Femenino</sexo>
+                                <nombre>Inés</nombre>
+                                <familia>Kahnwald</familia>
+                                <edad>47</edad>
+                                <contexto>Inés es hija del policía que en 1953 es jefe de Policía en Windem.
+                                    En 1986 trabaja en el hospital, donde conoce a Mikkel y lo adopta.
+                                </contexto>
+                            </personaje>
+                        </personajes>
                     </suceso>
                 </sucesos>
             </episodio>
             <episodio ep="4" titulo="Vidas dobles">
                 <resumen>
                     Extraños acontecimientos provocan a Charlotte una sensación de déjà vu, y sospecha que Peter oculta
-                    algo. Franziska pierde los nervios cuando Magnus la acorrala
+                    algo. Franziska pierde los nervios cuando Magnus la acorrala.
                 </resumen>
                 <duracion>47 min</duracion>
             </episodio>
             <episodio ep="5" titulo="Verdades">
                 <resumen>La obsesión de Hannah con Ulrich se vuelve malsana, el desconocido le pide a Regina que
-                    entregue un paquete y Martha se encuentra dividida entre Jonas y Bartosz
+                    entregue un paquete y Martha se encuentra dividida entre Jonas y Bartosz.
                 </resumen>
                 <duracion>45 min</duracion>
             </episodio>
@@ -204,21 +234,79 @@
                     Katharina le cuenta a su esposo que su compañera no logro obtener el permiso para registrar la
                     central nuclear. Tras conocer un nuevo caso de desaparicion; las personas de Winden le reclaman a
                     las autoridades por no tener el control sobre los extraños hechos que se han venido presentando en
-                    los ultimos dias
+                    los ultimos dias.
                 </resumen>
                 <duracion>55 min</duracion>
+                <sucesos>
+                    <suceso>
+                        <descripcion>Jonas investiga las cuevas del bosque de Windem</descripcion>
+                        <año>2019</año>
+                        <lugar>Cuevas Windem</lugar>
+                        <personajes>
+                            <personaje>
+                                <sexo>Masculino</sexo>
+                                <nombre>Jonas</nombre>
+                                <familia>Kanhwald</familia>
+                                <edad>17</edad>
+                                <contexto>Jonas lleva consigo el mapa que su padre había hecho de las cuevas y sus
+                                    túneles y adónde conectaban.
+                                </contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                </sucesos>
             </episodio>
-            <episodio ep="10" titulo="Alfa y omega">
+            <episodio ep="10" titulo="Alfa y omega" im="habitaciongente.jpg">
                 <resumen>Peter se lleva una gran sorpresa. Jonas descubre la verdad sobre su familia, pero los misterios
-                    no han acabado. Helge afronta un sacrificio
+                    no han acabado. Helge afronta un sacrificio.
                 </resumen>
                 <duracion>57 min</duracion>
                 <sucesos>
                     <suceso>
+                        <descripcion>Peter Doppler es testigo de la aparición del cuerpo de Mads en el sótano
+                            de la cabaña familiar. Llama a Tronte para que lo vea. Aparece Claudia
+                        </descripcion>
+                        <lugar>Sótano de la cabaña de los Doppler</lugar>
+                        <año>2019</año>
+                        <personajes>
+                            <personaje>
+                                <sexo>Masculino</sexo>
+                                <nombre>Peter</nombre>
+                                <familia>Doppler, hijo de Helge</familia>
+                                <edad>48</edad>
+                                <contexto>Peter le había sido infiel a su mujer Charlotte en el pasado,
+                                    y había acudido allí a rezar por sus pecados cuando el cuerpo calló del
+                                    agujero negro que se formó en un momento delante de él.
+                                </contexto>
+                            </personaje>
+                            <personaje>
+                                <sexo>Masculino</sexo>
+                                <nombre>Tronte</nombre>
+                                <familia>Nielsen, hijo de Agnes</familia>
+                                <edad>74</edad>
+                                <contexto>Tronte es el padre de Mads Nielsen, el hermano de Ulrich que había
+                                    desaparecido en 1986. Al ver su cadáver no da crédito. Rápidamente
+                                    llora desconsoladamente.
+                                </contexto>
+                            </personaje>
+                            <personaje>
+                                <sexo>Femenino</sexo>
+                                <nombre>Claudia</nombre>
+                                <familia>Tiedemann, hija de Doris y Egon</familia>
+                                <edad>68</edad>
+                                <contexto>Claudia es la madre de Regina. Fue jefa de la central en
+                                    1986 y tuvo un romance con Tronte. Claudia llega para explicarles por qué
+                                    deben llevar el cadáver de Mads al bosque para que lo encuentre la
+                                    policía.
+                                </contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                    <suceso>
                         <descripcion>
                             Jonas conoce a su yo del futuro, que le deja encerrado en la sala de papel pintado
                             en el sótano de los Doppler, para que cuando se produce la destrucción del agujero, que
-                            en realidad,  es la creación de una conexión en ese mismo espacio entre 1953 y 1986.
+                            en realidad, es la creación de una conexión en ese mismo espacio entre 1953 y 1986.
                         </descripcion>
                         <año>1953-1986</año>
                         <lugar>Sótano de la cabaña de los Doppler, en el bosque de Windem</lugar>
