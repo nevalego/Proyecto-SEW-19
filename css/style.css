@@ -1,7 +1,12 @@
+header {
+    background: url("../multimedia/fondocabecera.jpg");
+    position: relative;
+    width: 100%;
+}
 header h1{
-    font-size: 8em;
     margin: 0.5em 0.5em 0.5em 0.5em;
-    color: #764080;
+    font-size: 8em;
+    color: white;
 }
 article {
     position: relative;
@@ -11,6 +16,7 @@ article {
 nav {
     margin: 0.5em 0.5em 2em 1em;
     font-size: 1.5em;
+    background-color: white;
 }
 nav ul {
     margin-left: 0;
@@ -56,10 +62,11 @@ footer {
     height: 40px;
 }
 section img, video {
+    margin: 0.5em;
     position: relative;
     float: right;
 }
-
-section p {
+section p{
+    margin: 0.5em;
     position: relative;
 }

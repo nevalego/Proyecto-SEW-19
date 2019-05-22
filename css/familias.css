@@ -1,11 +1,17 @@
+header {
+    background: url("../multimedia/fondocabecera.jpg");
+    position: relative;
+    width: 100%;
+}
 header h1{
-    font-size: 8em;
     margin: 0.5em 0.5em 0.5em 0.5em;
-    color: #764080;
+    font-size: 8em;
+    color: white;
 }
 nav {
     margin: 0.5em 0.5em 2em 1em;
     font-size: 1.5em;
+    background-color: white;
 }
 nav ul {
     margin-left: 0;
@@ -20,26 +26,31 @@ nav ul li {
     list-style: none;
     display: inline;
 }
+h2{
+    font-size: 1.5em;
+}
 table {
-    margin-bottom: 1.9em;
     border: 1px #764080;
-    position: relative;
-    float: left;
+    margin-bottom: 1.0em;
+    margin-top: 0.9em;
+    margin-right: 0.9em;
+    margin-left: 0.9em;
 }
 table td {
     text-align: center;
-}
-table caption {
-    text-align: left;
     margin-bottom: 1.0em;
     margin-top: 0.9em;
+    margin-right: 0.9em;
+    margin-left: 0.9em;
+}
+table caption {
+    text-align: center;
+    margin-bottom: 1.0em;
+    margin-top: 0.9em;
+    margin-right: 0.9em;
+    margin-left: 0.9em;
     font-size: 1.1em;
     font-weight: bold;
-}
-h2 {
-    font-size: 1.5em;
-    position: relative;
-    float:left;
 }
 html {
     min-height: 100%;
@@ -47,16 +58,4 @@ html {
 }
 footer {
     margin-top: 3.9em;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-}
-section img {
-    position: relative;
-    float: left;
-}
-section p {
-    position: relative;
-    float: left;
 }
