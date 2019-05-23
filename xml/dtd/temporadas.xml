@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<?xml-stylesheet type="text/dtd" href="temporadas.dtd   " ?>
+<!DOCTYPE temporadas SYSTEM "temporadas.dtd">
 <temporadas>
     <temporada t="1">
         <episodios>
             <episodio ep="1" titulo="Secretos" im="ep10.jpg">
                 <resumen>
-                    Dos meses después de la muerte de su padre, Jonas le cuenta a su terapeuta que continua viendo a su
-                    padre en sus sueños ya que cree que el trata de explicarle el porque tomo la decisión de acabar con
-                    su vida; y después de tener esta conversación, Jonas regresa a la escuela y allí es recibido por uno
-                    de sus mejores amigos. En otro lugar; los papás de Erik Obendorf llegan a la estación de policía
-                    para exigirle a los agentes una explicación sobre el paradero de su hijo; quien lleva desaparecido
-                    desde hace trece días. Mientras tanto en la escuela, Katharina convoca a los estudiantes a una
-                    asamblea para hablar de la desaparición de su compañero Erik y pedirles una colaboración para dar de
-                    una vez por todas con el paradero de este joven. Entre tanto, la mamá de Ulrich le cuenta a su hijo
-                    que nuevamente vio algo extraño en el bosque y por esto quiere mostrarle la prueba que logro
-                    encontrar
+                    Dos meses despues de la muerte de su padre, Jonas le cuenta a su terapeuta que continua viendo a su
+                    padre en sus suenios ya que cree que el trata de explicarle el porque tomo la decision de acabar con
+                    su vida; y despues de tener esta conversacion, Jonas regresa a la escuela y alli es recibido por uno
+                    de sus mejores amigos. En otro lugar; los papas de Erik Obendorf llegan a la estacion de policia
+                    para exigirle a los agentes una explicacion sobre el paradero de su hijo; quien lleva desaparecido
+                    desde hace trece dias. Mientras tanto en la escuela, Katharina convoca a los estudiantes a una
+                    asamblea para hablar de la desaparicion de su companiero Erik y pedirles una colaboracion para dar de
+                    una vez por todas con el paradero de este joven. Entre tanto, la mama de Ulrich le cuenta a su hijo
+                    que nuevamente vio algo extranio en el bosque y por esto quiere mostrarle la prueba que logro
+                    encontrar.
                 </resumen>
                 <duracion>51 min</duracion>
                 <sucesos>
                     <suceso>
                         <descripcion>Suicidio de Michael</descripcion>
-                        <año>2019</año>
-                        <lugar>Cabaña de los Kahnwald, Winden</lugar>
+                        <anio>2019</anio>
+                        <lugar>Cabania de los Kahnwald, Winden</lugar>
                         <personajes>
                             <personaje>
                                 <sexo>Masculino</sexo>
@@ -36,7 +36,7 @@
                     </suceso>
                     <suceso>
                         <descripcion>Desaparicion de Erik y Mikkel Nielsen</descripcion>
-                        <año>2019</año>
+                        <anio>2019</anio>
                         <lugar>Cuevas de Winden</lugar>
                         <personajes>
                             <personaje>
@@ -64,7 +64,7 @@
                         <descripcion>La policia encuentra el cuerpo con la cara
                             y oidos fundidos con un walkman y una moneda del 86
                         </descripcion>
-                        <año>2019</año>
+                        <anio>2019</anio>
                         <lugar>En el bosque de Windem</lugar>
                         <personajes>
                             <personaje>
@@ -80,9 +80,9 @@
                     </suceso>
                 </sucesos>
             </episodio>
-            <episodio ep="2" titulo="Mentiras">
+            <episodio ep="2" titulo="Mentiras" im="">
                 <resumen>La policia queda desconcertada tras un descubrimiento macabro, y Ulrich busca una orden de
-                    allanamiento para la planta de energia. Un extraño se registra en el hotel
+                    allanamiento para la planta de energia. Un extranio se registra en el hotel
                 </resumen>
                 <duracion>44 min</duracion>
                 <sucesos>
@@ -91,14 +91,14 @@
                             cuevas, donde ve una puerta de la central. Ademas encuentra monedas
                             del 86 en cada de los Obendorf.
                         </descripcion>
+                        <anio>1986</anio>
                         <lugar>Cuevas de Windem</lugar>
-                        <año>1986</año>
                         <personajes>
                             <personaje>
+                                <sexo>Masculino</sexo>
                                 <nombre>Ulrich</nombre>
                                 <familia>Nielsen</familia>
                                 <edad>48</edad>
-                                <sexo>Masculino</sexo>
                                 <contexto>El jefe de la central no deja que la registre
                                     sin una orden de la policia
                                 </contexto>
@@ -109,14 +109,14 @@
                         <descripcion>Jonas encuentra un mapa sobre las cuevas de
                             Windem que el habia hecho
                         </descripcion>
+                        <anio>1986</anio>
                         <lugar>Cuevas de Windem</lugar>
-                        <año>1986</año>
                         <personajes>
                             <personaje>
+                                <sexo>Masculino</sexo>
                                 <nombre>Jonas</nombre>
                                 <familia>Kahnwald</familia>
                                 <edad>17</edad>
-                                <sexo>Masculino</sexo>
                                 <contexto>Michael habia dibujado un mapa que
                                     muestra los recorridos de las cuevas y adonde llevan
                                 </contexto>
@@ -125,10 +125,10 @@
                     </suceso>
                     <suceso>
                         <descripcion>Mikkel aparece en las cuevas y busca su casa, pero se
-                            encuentra a su padre con 15 años
+                            encuentra a su padre con 15 anios
                         </descripcion>
                         <lugar>Cuevas de Windem</lugar>
-                        <año>1986</año>
+                        <anio>1986</anio>
                         <personajes>
                             <personaje>
                                 <nombre>Mikkel</nombre>
@@ -154,14 +154,14 @@
                         <descripcion>Mikkel esta herido en una pierna y el policia de Windem le lleva al hospital,
                             donde la enfermera Ines Kahnwald le cuida
                         </descripcion>
-                        <año>1986</año>
+                        <anio>1986</anio>
                         <lugar>Hospital de Windem</lugar>
                         <personajes>
                             <personaje>
                                 <sexo>Masculino</sexo>
                                 <nombre>Mikkel</nombre>
                                 <familia>Nielsen</familia>
-                                <edad>13 años</edad>
+                                <edad>13 anios</edad>
                                 <contexto>Mikkel en ningun momento revela su apellido, pues sabe
                                     que sus padres aun no se han casado ni tienen hijos. Conoce a Ines, que lo
                                     adopta y cria como Michael Kahnwald.
@@ -182,7 +182,7 @@
             </episodio>
             <episodio ep="4" titulo="Vidas dobles">
                 <resumen>
-                    Extraños acontecimientos provocan a Charlotte una sensacion de deja vu, y sospecha que Peter oculta
+                    Extranios acontecimientos provocan a Charlotte una sensacion de deja vu, y sospecha que Peter oculta
                     algo. Franziska pierde los nervios cuando Magnus la acorrala.
                 </resumen>
                 <duracion>47 min</duracion>
@@ -202,7 +202,7 @@
             <episodio ep="7" titulo="Encrucijadas">
                 <resumen>Ulrich busca a la doctora de medicina legal para preguntarle que haran con el cuerpo que
                     encontraron en el bosque ya que quiere saber si es posible que este cuerpo se haya conservado
-                    por mas de treinta y tres años. Jonas llega a su escuela y al estar alli se da cuenta que las cosas
+                    por mas de treinta y tres anios. Jonas llega a su escuela y al estar alli se da cuenta que las cosas
                     parecen estar fuera de control y por esto se acerca una chica para preguntarle en que fecha se
                     encuentran. Despues de conseguir el permiso para entrar a la planta nuclear; Charlotte se dirige a
                     este lugar con el fin de encontrar pistas que la lleven a dar con el paradero de Mikkel; y Ulrich
@@ -210,15 +210,15 @@
                     con el jefe de policia; Jonas trata de explicarle que se siente muy enfermo y por esto se dirige al
                     hospital; y despues de revisar los expedientes de su hermano; Ulrich llama a Charlotte para decirle
                     que su suegro puede estar relacionado con la desaparicion de su hermano y lo que esta sucediendo
-                    ahora con su hijo y los otros dos niños
+                    ahora con su hijo y los otros dos ninios
                 </resumen>
                 <duracion>51 min</duracion>
             </episodio>
             <episodio ep="8" titulo="Lo que se siembra, eso mismo se cosecha">
-                <resumen>Charlotte le pregunta a su hija menor si ella sabe que les pudo pasar a sus compañeros de clase
+                <resumen>Charlotte le pregunta a su hija menor si ella sabe que les pudo pasar a sus companieros de clase
                     y ademas quiere que le cuente con detalles como era el sujeto con el que se encontro de regreso a
                     casa; despues de hablar con su hija, Charlotte le pide a su esposo que le diga la verdad y le
-                    asegure que el no tuvo nada que ver con las desapariciones de los tres niños. En otro lugar; Jonas
+                    asegure que el no tuvo nada que ver con las desapariciones de los tres ninios. En otro lugar; Jonas
                     le pregunta a su madre como se conocio con su padre; y ademas quiere saber como era el antes de que
                     conocieran sobre su enfermedad. Katharina le pide a sus hijos que piensen en el dolor que esta
                     sintiendo y no vayan a la escuela.
@@ -229,18 +229,18 @@
                 <resumen>Al verse con su hijo; Helge le dice a este que algo va suceder otra vez y tiene que buscar a
                     alguien muy importante para decirle que se detenga. Jonas decide ir hasta la cueva en donde
                     desaparecio Mikkel; sin saber que estaba siendo vigilado. Mientras la doctora examina los cadaveres
-                    de las aves; Charlotte le confiesa a esta mujer que hace treinta y tres años vivio algo similar y
+                    de las aves; Charlotte le confiesa a esta mujer que hace treinta y tres anios vivio algo similar y
                     para ella parece estar conectado lo que paso en esa epoca con lo que esta pasando en la actualidad y
-                    Katharina le cuenta a su esposo que su compañera no logro obtener el permiso para registrar la
+                    Katharina le cuenta a su esposo que su companiera no logro obtener el permiso para registrar la
                     central nuclear. Tras conocer un nuevo caso de desaparicion; las personas de Winden le reclaman a
-                    las autoridades por no tener el control sobre los extraños hechos que se han venido presentando en
+                    las autoridades por no tener el control sobre los extranios hechos que se han venido presentando en
                     los ultimos dias.
                 </resumen>
                 <duracion>55 min</duracion>
                 <sucesos>
                     <suceso>
                         <descripcion>Jonas investiga las cuevas del bosque de Windem</descripcion>
-                        <año>2019</año>
+                        <anio>2019</anio>
                         <lugar>Cuevas Windem</lugar>
                         <personajes>
                             <personaje>
@@ -264,10 +264,10 @@
                 <sucesos>
                     <suceso>
                         <descripcion>Peter Doppler es testigo de la aparicion del cuerpo de Mads en el sotano
-                            de la cabaña familiar. Llama a Tronte para que lo vea. Aparece Claudia
+                            de la cabania familiar. Llama a Tronte para que lo vea. Aparece Claudia
                         </descripcion>
-                        <lugar>Sotano de la cabaña de los Doppler</lugar>
-                        <año>2019</año>
+                        <lugar>Sotano de la cabania de los Doppler</lugar>
+                        <anio>2019</anio>
                         <personajes>
                             <personaje>
                                 <sexo>Masculino</sexo>
@@ -308,14 +308,14 @@
                             en el sotano de los Doppler, para que cuando se produce la destruccion del agujero, que
                             en realidad, es la creacion de una conexion en ese mismo espacio entre 1953 y 1986.
                         </descripcion>
-                        <año>1953-1986</año>
-                        <lugar>Sotano de la cabaña de los Doppler, en el bosque de Windem</lugar>
+                        <anio>1953-1986</anio>
+                        <lugar>Sotano de la cabania de los Doppler, en el bosque de Windem</lugar>
                         <personajes>
                             <personaje>
                                 <nombre>Helge</nombre>
                                 <familia>Doppler</familia>
                                 <sexo>Masculino</sexo>
-                                <edad>8 años</edad>
+                                <edad>8 anios</edad>
                                 <contexto></contexto>
                             </personaje>
                         </personajes>
