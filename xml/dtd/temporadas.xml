@@ -127,21 +127,21 @@
                         <descripcion>Mikkel aparece en las cuevas y busca su casa, pero se
                             encuentra a su padre con 15 anios
                         </descripcion>
-                        <lugar>Cuevas de Windem</lugar>
                         <anio>1986</anio>
+                        <lugar>Cuevas de Windem</lugar>
                         <personajes>
                             <personaje>
+                                <sexo>Masculino</sexo>
                                 <nombre>Mikkel</nombre>
                                 <familia>Nielsen</familia>
                                 <edad>11</edad>
-                                <sexo>Masculino</sexo>
                                 <contexto>En 2019 desaparece y vuelve a aparecer en 1986</contexto>
                             </personaje>
                         </personajes>
                     </suceso>
                 </sucesos>
             </episodio>
-            <episodio ep="3" titulo="Pasado y Presente">
+            <episodio ep="3" titulo="Pasado y Presente" im="">
                 <resumen>El capitulo comienza cuando Mikkel, despues de encontrarse con un muy joven Ulrich y una joven
                     Katherina al llegar a la que seria su casa, entra al hogar y se encuentra deprimida por no
                     encontrar a su hijo desaparecido Mads. Cuando ve que Mikkel entra a la casa, le pregunta donde esta
@@ -180,26 +180,108 @@
                     </suceso>
                 </sucesos>
             </episodio>
-            <episodio ep="4" titulo="Vidas dobles">
+            <episodio ep="4" titulo="Vidas dobles" im="">
                 <resumen>
                     Extranios acontecimientos provocan a Charlotte una sensacion de deja vu, y sospecha que Peter oculta
                     algo. Franziska pierde los nervios cuando Magnus la acorrala.
                 </resumen>
                 <duracion>47 min</duracion>
+                <sucesos>
+                    <suceso>
+                        <descripcion>Jonas se va a explorar las cuevas con el mapa de su padre. El
+                        Jonas del futuro le ve.</descripcion>
+                        <anio>2019</anio>
+                        <lugar>Cuevas de Windem</lugar>
+                        <personajes>
+                            <personaje>
+                                <sexo>Masculino</sexo>
+                                <nombre>Jonas</nombre>
+                                <familia>Kahnwald</familia>
+                                <edad>17</edad>
+                                <contexto>Descubre el tunel y viaja a 1986</contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+
+                    <suceso>
+                        <descripcion>Charlotte toma la tarjeta de memoria una de las camaras
+                        de las carreteras de Windem y cree que las huellas del neumático son
+                            del coche de su marido por las fotos. La tierra roja del cuerpo es de la cabania de los
+                        Doppler, la familia de su marido Peter. </descripcion>
+                        <anio>2019</anio>
+                        <lugar>Oficinas de la Policia de Windem</lugar>
+                        <personajes>
+                            <personaje>
+                                <sexo>Femenino</sexo>
+                                <nombre>Charlotte</nombre>
+                                <familia>Doppler</familia>
+                                <edad>35</edad>
+                                <contexto>Recuerda los pájaros, los ninios desaparecidos
+                                    y cree que hay relación con lo que paso hace 33 anios</contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                    <suceso>
+                        <descripcion>Elisabeth vuelve sola a casa. Su amigo desaparece</descripcion>
+                        <anio>2019</anio>
+                        <lugar>Windem</lugar>
+                        <personajes>
+                            <personaje>
+                                <sexo>Femenino</sexo>
+                                <nombre>Elisabeth</nombre>
+                                <familia>Doppler</familia>
+                                <edad>7</edad>
+                                <contexto>Ella y su amigo eran "novios"</contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                </sucesos>
             </episodio>
-            <episodio ep="5" titulo="Verdades">
+            <episodio ep="5" titulo="Verdades" im="">
                 <resumen>La obsesion de Hannah con Ulrich se vuelve malsana, el desconocido le pide a Regina que
                     entregue un paquete y Martha se encuentra dividida entre Jonas y Bartosz.
                 </resumen>
                 <duracion>45 min</duracion>
+                <sucesos>
+                    <suceso>
+                        <descripcion></descripcion>
+                        <anio></anio>
+                        <lugar></lugar>
+                        <personajes>
+                            <personaje>
+                                <sexo></sexo>
+                                <nombre></nombre>
+                                <familia></familia>
+                                <edad></edad>
+                                <contexto></contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                </sucesos>
             </episodio>
-            <episodio ep="6" titulo="Sic mundus creatus est">
+            <episodio ep="6" titulo="Sic mundus creatus est" im="">
                 <resumen>Ulrich investiga el pasado en busca de respuestas y desentierra perturbadores secretos
                     familiares. Equipado con nuevas herramientas, Jonas se adentra en la caverna.
                 </resumen>
                 <duracion>49 min</duracion>
+                <sucesos>
+                    <suceso>
+                        <descripcion></descripcion>
+                        <anio></anio>
+                        <lugar></lugar>
+                        <personajes>
+                            <personaje>
+                                <sexo></sexo>
+                                <nombre></nombre>
+                                <familia></familia>
+                                <edad></edad>
+                                <contexto></contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                </sucesos>
             </episodio>
-            <episodio ep="7" titulo="Encrucijadas">
+            <episodio ep="7" titulo="Encrucijadas" im="">
                 <resumen>Ulrich busca a la doctora de medicina legal para preguntarle que haran con el cuerpo que
                     encontraron en el bosque ya que quiere saber si es posible que este cuerpo se haya conservado
                     por mas de treinta y tres anios. Jonas llega a su escuela y al estar alli se da cuenta que las cosas
@@ -213,8 +295,24 @@
                     ahora con su hijo y los otros dos ninios
                 </resumen>
                 <duracion>51 min</duracion>
+                <sucesos>
+                    <suceso>
+                        <descripcion></descripcion>
+                        <anio></anio>
+                        <lugar></lugar>
+                        <personajes>
+                            <personaje>
+                                <sexo></sexo>
+                                <nombre></nombre>
+                                <familia></familia>
+                                <edad></edad>
+                                <contexto></contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                </sucesos>
             </episodio>
-            <episodio ep="8" titulo="Lo que se siembra, eso mismo se cosecha">
+            <episodio ep="8" titulo="Lo que se siembra, eso mismo se cosecha" im="">
                 <resumen>Charlotte le pregunta a su hija menor si ella sabe que les pudo pasar a sus companieros de clase
                     y ademas quiere que le cuente con detalles como era el sujeto con el que se encontro de regreso a
                     casa; despues de hablar con su hija, Charlotte le pide a su esposo que le diga la verdad y le
@@ -224,8 +322,24 @@
                     sintiendo y no vayan a la escuela.
                 </resumen>
                 <duracion>50 min</duracion>
+                <sucesos>
+                    <suceso>
+                        <descripcion></descripcion>
+                        <anio></anio>
+                        <lugar></lugar>
+                        <personajes>
+                            <personaje>
+                                <sexo></sexo>
+                                <nombre></nombre>
+                                <familia></familia>
+                                <edad></edad>
+                                <contexto></contexto>
+                            </personaje>
+                        </personajes>
+                    </suceso>
+                </sucesos>
             </episodio>
-            <episodio ep="9" titulo="Todo ocurre ahora">
+            <episodio ep="9" titulo="Todo ocurre ahora" im="">
                 <resumen>Al verse con su hijo; Helge le dice a este que algo va suceder otra vez y tiene que buscar a
                     alguien muy importante para decirle que se detenga. Jonas decide ir hasta la cueva en donde
                     desaparecio Mikkel; sin saber que estaba siendo vigilado. Mientras la doctora examina los cadaveres
@@ -266,8 +380,8 @@
                         <descripcion>Peter Doppler es testigo de la aparicion del cuerpo de Mads en el sotano
                             de la cabania familiar. Llama a Tronte para que lo vea. Aparece Claudia
                         </descripcion>
-                        <lugar>Sotano de la cabania de los Doppler</lugar>
                         <anio>2019</anio>
+                        <lugar>Sotano de la cabania de los Doppler</lugar>
                         <personajes>
                             <personaje>
                                 <sexo>Masculino</sexo>
@@ -306,17 +420,20 @@
                         <descripcion>
                             Jonas conoce a su yo del futuro, que le deja encerrado en la sala de papel pintado
                             en el sotano de los Doppler, para que cuando se produce la destruccion del agujero, que
-                            en realidad, es la creacion de una conexion en ese mismo espacio entre 1953 y 1986.
+                            en realidad, es la creacion de un agujero de gusano entre 1953 y 1986.
                         </descripcion>
                         <anio>1953-1986</anio>
-                        <lugar>Sotano de la cabania de los Doppler, en el bosque de Windem</lugar>
+                        <lugar>Bunker de la cabania de los Doppler, en el bosque de Windem</lugar>
                         <personajes>
                             <personaje>
+                                <sexo>Masculino</sexo>
                                 <nombre>Helge</nombre>
                                 <familia>Doppler</familia>
-                                <sexo>Masculino</sexo>
                                 <edad>8 anios</edad>
-                                <contexto></contexto>
+                                <contexto>Hijo de Greta y Bernd. Nacio en 1945. En 1953 se encuentra
+                                con Ulrich Nielsen, que lo golpea en la cabeza intentando matarlo
+                                sin éxito. Se despierta en el bunker, donde viajara a 1986 a
+                                traves del agujero de gusano.</contexto>
                             </personaje>
                         </personajes>
                     </suceso>
