@@ -3,7 +3,7 @@
 class Dark {
     constructor() {
         this.apiKey = 'a5b8fe70c172015d51961225ca93b6ac';
-        this.urlImage = 'https://image.tmdb.org/t/p/w500/';
+        this.urlImage = 'https://image.tmdb.org/t/p/w500';
         this.url = 'https://api.themoviedb.org/3/tv/70523?api_key=' + this.apiKey + '&language=es-ES';
         this.name = '';
     }
@@ -33,9 +33,11 @@ class Dark {
         for(let i = 0; i < json.genres.length; i++) {
             g += json.genres[i].name+", ";
         }
+        this.urlImage+= json.backdrop_path;
+        $("main").append("<section><img src='"+this.urlImage+"' /></section>");
         g=g+"</h2>";
         $("main").append(g);
-        $("main").append("<h4>Puntuación: "+ json.vote_average+"</h4>");
+        $("main").append("<section><h4>Puntuación: "+ json.vote_average+"</h4>");
         $("main").append("<p> Serie de "+ json.networks[0].name+
             " creada por "+ json.created_by[0].name+
             ", producida por "+json.production_companies[0].name +"</p>");
@@ -46,10 +48,9 @@ class Dark {
             t += "<p> Fecha de emisión "+ json.seasons[i].air_date+"</p>";
         }
         t=t+"</section>";
-        $("main").append(t);
+        $("main").append(t+"</section>");
 
-        this.urlImage+= json.backdrop_path;
-        $("img").setAttribute(src,this.urlImage);
+
     }
 }
 
