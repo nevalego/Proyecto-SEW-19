@@ -6,6 +6,7 @@ class Dark {
         this.urlImage = 'https://image.tmdb.org/t/p/w500';
         this.url = 'https://api.themoviedb.org/3/tv/70523?api_key=' + this.apiKey + '&language=es-ES';
         this.name = '';
+        this.Mapskey='AIzaSyDOtnSjoli1L8hdiBQ1iCjKSCquMlQFPzI';
     }
 
     cargarDatos() {
