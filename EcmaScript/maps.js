@@ -1,43 +1,41 @@
 "use script";
 
-class Maps {
+class WindemMap {
     constructor() {
-        this.mapskey = 'AIzaSyDOtnSjoli1L8hdiBQ1iCjKSCquMlQFPzI';
-        this.map = new Map();
-        this.init();
+        this.mapsAPIkey = 'AIzaSyDOtnSjoli1L8hdiBQ1iCjKSCquMlQFPzI';
+        this.latitud=48.148825;
+        this.longitud=8.043453;
+        this.mapa=new Map();
+        this.initMap();
     }
 
-    init() {
-        let url = "https://maps.googleapis.com/maps/api/js?key=" + this.mapskey + "&callback=initMap";
-
+    initMap() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(this.obtener, this.errores);
         } else {
-            alert("Geolocación no es soportada por navegador.");
+            alert("Geolocación no soportada por navegador.");
         }
     }
 
     obtener(posicion) {
-        var coordenadas = posicion.coords;
-        mapa.map.set('Latitud', coordenadas.latitude);
-        mapa.map.set('Longitud', coordenadas.longitude);
-        mapa.mostrar();
+
+        this.mapa.map.set('Latitud', this.latitud);
+        this.mapa.map.set('Longitud', this.longitud);
+        this.mapa.mostrar();
     }
 
     mostrar() {
-        var localizacion = {
-            lat: this.map.get("Latitud"),
-            lng: this.map.get("Longitud")
-        };
         var map = new google.maps.Map(document.getElementsByTagName('main')[0], {
-            zoom: 15,
-            center: localizacion
+            zoom: 17,
+            center: {lat: this.latitud,
+                lng: this.longitud}
         });
         var marker = new google.maps.Marker({
-            position: localizacion,
-            map: map
+            position: {lat: this.latitud,
+                lng: this.longitud},
+            map: map,
+            title:'Windem'
         });
-
     }
 
     errores(error) {
@@ -46,4 +44,4 @@ class Maps {
 
 }
 
-var mapa = new Maps();
+var mapaW = new WindemMap();
