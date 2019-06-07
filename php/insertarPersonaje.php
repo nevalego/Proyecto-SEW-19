@@ -1,5 +1,5 @@
 <?php
-require 'crearBD.php';
+require 'darkBD.php';
 $valido = false;
 $error = "Error: ";
 if (sizeof($_POST) > 1) {
@@ -9,11 +9,11 @@ if (sizeof($_POST) > 1) {
         $error .= "apellido vacío.";
     } elseif ("" == trim($_POST["edad"]) || is_numeric($_POST["edad"]) === false) {
         $error .= "edad vacío.";
-    } elseif ("" == trim($_POST["año"]) || is_numeric($_POST["año"]) === false) {
-        $error .= "año vacío.";
-    }elseif ("" == trim($_POST["oficio"])) {
+    } elseif ("" == trim($_POST["oficio"])) {
         $error .= "oficio vacío.";
-    }else {
+    } elseif ("" == trim($_POST["oficio"])) {
+        $error .= "oficio vacío.";
+    } else {
         $valido = true;
     }
 }

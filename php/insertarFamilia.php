@@ -1,5 +1,5 @@
 <?php
-require 'crearBD.php';
+require 'darkBD.php';
 $valido = false;
 $error = "Error: ";
 if (sizeof($_POST) > 1) {

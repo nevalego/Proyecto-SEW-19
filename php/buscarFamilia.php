@@ -1,5 +1,5 @@
 <?php
-require 'crearBD.php';
+require 'darkBD.php';
 $db->select_db("db");
 if ($_POST) {
     // select * from miembro where apellido like valor
