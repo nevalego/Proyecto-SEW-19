@@ -23,6 +23,8 @@ class Database
         }
 
         $_SESSION["db"] = $db;
+        $this->crearTablas();
+
     }
 
     public function closeSession()
@@ -33,7 +35,6 @@ class Database
 
     public function crearTablas()
     {
-        $this->initBasedatos();
         $db = $_SESSION["db"];
 
         $crearPersonaje = "CREATE  TABLE IF NOT EXISTS personaje(
@@ -274,5 +275,4 @@ class Database
         echo "</table> \n";
     }
 }
-
 ?>
