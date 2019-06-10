@@ -249,17 +249,22 @@ class Database
             exit();
         }
 
-        $result = mysqli_query("SELECT nombre,apellido,oficio FROM personaje", $db);
-        echo "<table border = '1'> \n";
-        echo "<tr><td>Nombre</td><td>Apellido</td><td>Oficio</td></tr> \n";
-        while ($row = mysqli_fetch_row($result)) {
-            echo "<tr><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td></tr> \n";
+        if ($result = $db->query("SELECT nombre,apellido,oficio FROM personaje")) {
+
+            echo "<table border = '1'> \n";
+            echo "<tr><td>Nombre</td><td>Apellido</td><td>Oficio</td></tr> \n";
+
+            while ($row = $result->fetch_row()) {
+                echo "<tr><td>$row[nombre]</td><td>$row[apellido]</td><td>$row[oficio]</td></tr> \n";
+            }
+            echo "</table> \n";
+
         }
-        echo "</table> \n";
+
         $db->close();
     }
 
-    function listarPersonajesFamilia($familia_id)
+    function listarPersonajesFamilia()
     {
 
         $db = new mysqli('localhost', 'DBUSER2018', 'DBPSWD2018');
@@ -270,19 +275,22 @@ class Database
 
         $SQL = "CREATE DATABASE IF NOT EXISTS dark COLLATE utf8_spanish_ci";
         if ($db->query($SQL)) {
-            echo "<h2>Base de datos Dark creada</h2>";
         } else {
-            echo "<h2>ERROR en la creación de la Base de Datos Dark</h2>";
             exit();
         }
 
-        $result = mysqli_query("SELECT nombre,apellido,oficio FROM personaje WHERE familia_id='$familia_id'", $db);
-        echo "<table border = '1'> \n";
-        echo "<tr><td>Nombre</td><td>Apellido</td><td>Oficio</td></tr> \n";
-        while ($row = mysqli_fetch_row($result)) {
-            echo "<tr><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td></tr> \n";
+        if ($preparedS = $db->prepare("SELECT nombre,apellido,oficio FROM personaje WHERE familia_id=?")) {
+            $preparedS->bind_param('s', $_POST['familia_id']);
+            $preparedS->execute();
+            $result = $preparedS->get_result();
+
+            echo "<table border = '1'> \n";
+            echo "<tr><td>Nombre</td><td>Apellido</td><td>Oficio</td></tr> \n";
+            while ($row = $result->fetch_assoc()) {
+                echo "<tr><td>$row[nombre]</td><td>$row[apellido]</td><td>$row[oficio]</td></tr> \n";
+            }
+            echo "</table> \n";
         }
-        echo "</table> \n";
         $db->close();
     }
 }

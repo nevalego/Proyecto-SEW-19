@@ -11,7 +11,7 @@
 </head>
 <body>
 <header>
-    <h1>PHP BD Dark</h1>
+    <h1>Buscador Dark</h1>
 </header>
 <main>
 
@@ -22,12 +22,18 @@
     $darkBD->initBasedatos();
     $darkBD->cargarDatos();
 
-    if(count($_POST) > 0){
-
+    if (count($_POST) > 0) {
+        if (isset($_POST['todos'])) $darkBD->listarPersonajes();
+        if (isset($_POST['familia'])) $darkBD->listarPersonajesFamilia($_POST['familia_id']);
     }
-    echo "<button onclick=$darkBD->listarPersonajes()>Listar Personajes</button>
-            <p>Introduce familia: <input name='Familia'/>
-            <button onclick=$darkBD->listarPersonajesFamilia()>Listar Familia</button></p>"
+
+    echo "<form action='#' method='post' name='buttons'>
+                <input type = 'submit' class='button' name = 'todos' value = 'Ver todos los personajes'/>
+                <p>Introduce el id de una familia 1,2,3 o 4</p>  
+                <p><input type='text' name='familia_id' >
+                <input type = 'submit' class='button' name = 'familia' value = 'Ver familia'/></p>
+               </form>";
+
 
     ?>
 </main>
@@ -41,11 +47,11 @@
 
     <p>
         <a href="http://validator.w3.org/check/referer" hreflang="en-us"> <img
-                src="../multimedia/valid-html5-button.png"
-                alt="¡HTML5  válido!" height="31"
-                width="87"/></a>
+                    src="multimedia/valid-html5-button.png"
+                    alt="¡HTML5  válido!" height="31"
+                    width="87"/></a>
         <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://di002.edv.uniovi.es/~cueva/css/miestilo.css"><img
-                height="31" width="88" src="../multimedia/vcss.gif" alt="¡CSS válido!"/></a>
+                    height="31" width="88" src="multimedia/vcss.gif" alt="¡CSS válido!"/></a>
     </p>
 </footer>
 </html>
