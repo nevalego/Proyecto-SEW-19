@@ -7,25 +7,29 @@
     <meta name="description" content="Pruebas PHP Dark"/>
     <meta name="keywords" content="HTML,Dark,series,Netflix,PHP"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="../css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
 <header>
     <h1>PHP BD Dark</h1>
 </header>
 <main>
-    <p><a href="darkBD.php">Crear Base de Datos</a></p>
-    <section>
-        <h2>Buscador</h2>
-        <p><input type="button" value="Listar personajes" onclick="listarPersonajes()"/></p>
 
-        <p>
-            Familia:
-            <input type="text" value="$value"/>
-            <input type="button" value="Listar personajes de familia" onclick="listarPersonajesFamilia($value)"/>
-        </p>
+    <?php
+    include("darkBD.php");
+    $darkBD = new Database();
 
-    </section>
+    $darkBD->initBasedatos();
+    $darkBD->cargarDatos();
+
+    if(count($_POST) > 0){
+
+    }
+    echo "<button onclick=$darkBD->listarPersonajes()>Listar Personajes</button>
+            <p>Introduce familia: <input name='Familia'/>
+            <button onclick=$darkBD->listarPersonajesFamilia()>Listar Familia</button></p>"
+
+    ?>
 </main>
 </body>
 <footer>
@@ -43,6 +47,5 @@
         <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://di002.edv.uniovi.es/~cueva/css/miestilo.css"><img
                 height="31" width="88" src="../multimedia/vcss.gif" alt="¡CSS válido!"/></a>
     </p>
-    <script src="darkBD.php"/>
 </footer>
 </html>
