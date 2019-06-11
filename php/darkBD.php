@@ -68,7 +68,6 @@ class Database
             echo "<p> Tabla Actor creada</p>";
         } else {
             echo "<p>Error creando la tabla Actor</p>";
-            echo "<script>console.log(' . $db->error . ')</script>";
             exit();
         }
 
@@ -79,12 +78,6 @@ class Database
     {
         $db = new mysqli('localhost', 'DBUSER2018', 'DBPSWD2018');
         if ($db->connect_error) {
-            exit();
-        }
-
-        $SQL = "CREATE DATABASE IF NOT EXISTS dark COLLATE utf8_spanish_ci";
-        if ($db->query($SQL)) {
-        } else {
             exit();
         }
         $db->select_db("dark");
@@ -240,22 +233,17 @@ class Database
         $db = new mysqli('localhost', 'DBUSER2018', 'DBPSWD2018');
         if ($db->connect_error) {
             exit();
-        } else {
         }
 
-        $SQL = "CREATE DATABASE IF NOT EXISTS dark COLLATE utf8_spanish_ci";
-        if ($db->query($SQL)) {
-        } else {
-            exit();
-        }
+        $db->select_db("dark");
 
         if ($result = $db->query("SELECT nombre,apellido,oficio FROM personaje")) {
 
             echo "<table border = '1'> \n";
             echo "<tr><td>Nombre</td><td>Apellido</td><td>Oficio</td></tr> \n";
 
-            while ($row = $result->fetch_row()) {
-                echo "<tr><td>$row[nombre]</td><td>$row[apellido]</td><td>$row[oficio]</td></tr> \n";
+            while ($row = $result->fetch_assoc()) {
+                echo "<tr><td>" . $row['nombre'] . "</td><td>".$row['apellido']."</td><td>".$row['oficio']."</td></tr> \n";
             }
             echo "</table> \n";
 
@@ -273,11 +261,7 @@ class Database
         } else {
         }
 
-        $SQL = "CREATE DATABASE IF NOT EXISTS dark COLLATE utf8_spanish_ci";
-        if ($db->query($SQL)) {
-        } else {
-            exit();
-        }
+        $db->select_db("dark");
 
         if ($preparedS = $db->prepare("SELECT nombre,apellido,oficio FROM personaje WHERE familia_id=?")) {
             $preparedS->bind_param('s', $_POST['familia_id']);
@@ -287,7 +271,7 @@ class Database
             echo "<table border = '1'> \n";
             echo "<tr><td>Nombre</td><td>Apellido</td><td>Oficio</td></tr> \n";
             while ($row = $result->fetch_assoc()) {
-                echo "<tr><td>$row[nombre]</td><td>$row[apellido]</td><td>$row[oficio]</td></tr> \n";
+                echo "<tr><td>".$row['nombre']."</td><td>".$row['apellido']."</td><td>".$row['oficio']."</td></tr> \n";
             }
             echo "</table> \n";
         }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<temporadas>
+    <temporada numero="1">
+        <fecha>01/12/2017</fecha>
+        <hora>00:00</hora>
+        <comentario>Cine</comentario>
+    </temporada>
+    <temporada numero="2">
+        <fecha>21/06/2019</fecha>
+        <hora>00:00</hora>
+        <comentario></comentario>
+    </temporada>
+</temporadas>
