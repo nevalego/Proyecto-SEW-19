@@ -36,22 +36,7 @@ nav ul li {
     display: inline;
     font-family: "Yu Gothic";
 }
-table {
-    margin-bottom: 1.9em;
-    border: 1px #764080;
-}
 
-table td {
-    text-align: center;
-}
-
-table caption {
-    text-align: left;
-    margin-bottom: 1.0em;
-    margin-top: 0.9em;
-    font-size: 1.1em;
-    font-weight: bold;
-}
 
 h2 {
     font-size: 1.6em;

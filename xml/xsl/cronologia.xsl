@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
     <xsl:template match="/">
         <html>
@@ -32,22 +33,23 @@
 
                             </section>
                             <xsl:for-each select="sucesos/suceso">
-                                <h4>Suceso : <xsl:value-of select="descripcion"/>
+                                <h4>Suceso :
+                                    <xsl:value-of select="descripcion"/>
                                 </h4>
                                 <section>
-                                <p>Año
-                                    <xsl:value-of select="año"/>,
-                                    <xsl:value-of select="lugar"/>
-                                </p>
-                                    <p>Personajes implicados: </p>
+                                    <p>Año
+                                        <xsl:value-of select="año"/>,
+                                        <xsl:value-of select="lugar"/>
+                                    </p>
+                                    <p>Personajes implicados:</p>
                                     <ul>
-                                <xsl:for-each select="personajes/personaje">
-                                    <li><xsl:value-of select="familia"/>,
-                                        <xsl:value-of select="nombre"/> de
-                                        <xsl:value-of select="edad"/> años.
-                                        <xsl:value-of select="contexto"/>
-                                    </li>
-                                </xsl:for-each>
+                                        <xsl:for-each select="personajes/personaje">
+                                            <li><xsl:value-of select="familia"/>,
+                                                <xsl:value-of select="nombre"/> de
+                                                <xsl:value-of select="edad"/> años.
+                                                <xsl:value-of select="contexto"/>
+                                            </li>
+                                        </xsl:for-each>
                                     </ul>
                                 </section>
                             </xsl:for-each>
