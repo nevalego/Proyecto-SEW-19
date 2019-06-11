@@ -1,22 +1,32 @@
-$(document).ready(function () {
+"use script";
 
-    $.get("documento.xml", function (xml) {
+class ReadMultimedia {
 
-        $(xml).find("temporadas").each(function () {
+    read() {
+        $(document).ready(function () {
 
-            // Leer atributo de evento
-            var numero = $(this).attr('numero');
+            $.get("documeto.xml", function (xml) {
 
-            // Leer elementos de evento
-            var fecha = $(this).find("fecha").text();
-            var hora = $(this).find("hora").text();
-            var comentario = $(this).find("comentario").text();
+                $(xml).find("elemento").each(function () {
 
-            var html = '<h2>Temporada ' + numero + '</h2>';
-            html += '<p>Fecha y hora de estreno' + fecha + ' ' + hora + '</p>';
-            html += '<p>Comentario ' + comentario + '</p>';
+                    // Leer atributo de elemento
+                    var numero = $(this).attr('numero');
+                    var tipo = $(this).attr('tipo');
 
-            $('dl').append($(html));
+                    // Leer nodos de elemento
+                    var url = $(this).find("url").text();
+                    var pie = $(this).find("pie").text();
+
+                    var img = '<section><img src="' + url + '" numero="' + numero + '" ></img>';
+                    img += '<p>' + pie + '</p></section>';
+
+                    $('main').append($(img));
+                });
+            });
         });
-    });
-});
+
+    }
+}
+
+let procesador = new ReadMultimedia();
+procesador.read();

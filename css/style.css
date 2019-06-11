@@ -3,7 +3,6 @@ header {
     background: url("../multimedia/fondocuevajonas.jpg");
 }
 header h1{
-    padding: 1px;
     font-size: 8em;
     color: white;
     font-family: Corbel,"Yu Gothic","Arial";
@@ -76,20 +75,5 @@ footer address a{
 main{
     background: white;
     border-radius: 10px;
-    margin:4em 1em 2em 1em;
-}
-section img {
-    position: relative;
-    float:right;
-    width: 290px;
-    height: 230px;
-}
-section p {
-    margin: 0.5em 2em 2em 2em;
-    position: relative;
-}
-article video{
-    margin:2em;
-    position: relative;
-    float: right;
+    margin:2em 2em 1em 2em;
 }
