@@ -14,9 +14,9 @@ class Database
 
         $SQL = "CREATE DATABASE IF NOT EXISTS dark COLLATE utf8_spanish_ci";
         if ($db->query($SQL)) {
-            echo "<h2>Base de datos Dark creada</h2>";
+            echo "<h2>Base de datos Estrenos creada</h2>";
         } else {
-            echo "<h2>ERROR en la creación de la Base de Datos Dark</h2>";
+            echo "<h2>ERROR en la creación de la Base de Datos Estrenos</h2>";
             exit();
         }
 

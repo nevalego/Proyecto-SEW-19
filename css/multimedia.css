@@ -1,10 +1,9 @@
 section img {
-    position: center;
+    position: relative;
     margin:0.8em;
     width: 300px;
     height: 230px;
 }
 section p {
     margin: 0.5em 2em 2em 2em;
-    position: center;
 }

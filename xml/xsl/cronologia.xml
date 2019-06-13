@@ -3,7 +3,7 @@
 <temporadas>
     <temporada t="1">
         <episodios>
-            <episodio ep="1" titulo="Secretos" im="ep1.jpg">
+            <episodio ep="1" titulo="Secretos">
                 <resumen>
                     Dos meses despues de la muerte de su padre, Jonas le cuenta a su terapeuta que continua viendo a su
                     padre en sus suenios ya que cree que el trata de explicarle el porque tomo la decision de acabar con
@@ -80,7 +80,7 @@
                     </suceso>
                 </sucesos>
             </episodio>
-            <episodio ep="2" titulo="Mentiras" im="ep2.jpg">
+            <episodio ep="2" titulo="Mentiras">
                 <resumen>La policia queda desconcertada tras un descubrimiento macabro, y Ulrich busca una orden de
                     allanamiento para la planta de energia. Un extranio se registra en el hotel
                 </resumen>
@@ -141,7 +141,7 @@
                     </suceso>
                 </sucesos>
             </episodio>
-            <episodio ep="3" titulo="Pasado y Presente" im="ep3.jpg">
+            <episodio ep="3" titulo="Pasado y Presente">
                 <resumen>El capitulo comienza cuando Mikkel, despues de encontrarse con un muy joven Ulrich y una joven
                     Katherina al llegar a la que seria su casa, entra al hogar y se encuentra deprimida por no
                     encontrar a su hijo desaparecido Mads. Cuando ve que Mikkel entra a la casa, le pregunta donde esta
@@ -180,7 +180,7 @@
                     </suceso>
                 </sucesos>
             </episodio>
-            <episodio ep="4" titulo="Vidas dobles" im="ep4.jpg">
+            <episodio ep="4" titulo="Vidas dobles" >
                 <resumen>
                     Extranios acontecimientos provocan a Charlotte una sensacion de deja vu, y sospecha que Peter oculta
                     algo. Franziska pierde los nervios cuando Magnus la acorrala.
@@ -246,7 +246,7 @@
                     </suceso>
                 </sucesos>
             </episodio>
-            <episodio ep="5" titulo="Verdades" im="ep5.jpg">
+            <episodio ep="5" titulo="Verdades" >
                 <resumen>La obsesion de Hannah con Ulrich se vuelve malsana, el desconocido le pide a Regina que
                     entregue un paquete y Martha se encuentra dividida entre Jonas y Bartosz.
                 </resumen>
@@ -353,7 +353,7 @@
                     </suceso>
                 </sucesos>
             </episodio>
-            <episodio ep="6" titulo="Sic mundus creatus est" im="ep6.jpg">
+            <episodio ep="6" titulo="Sic mundus creatus est" >
                 <resumen>Ulrich investiga el pasado en busca de respuestas y desentierra perturbadores secretos
                     familiares. Equipado con nuevas herramientas, Jonas se adentra en la caverna.
                 </resumen>
@@ -442,7 +442,7 @@
                     </suceso>
                 </sucesos>
             </episodio>
-            <episodio ep="7" titulo="Encrucijadas" im="ep7.jpg">
+            <episodio ep="7" titulo="Encrucijadas">
                 <resumen>Ulrich busca a la doctora de medicina legal para preguntarle que haran con el cuerpo que
                     encontraron en el bosque ya que quiere saber si es posible que este cuerpo se haya conservado
                     por mas de treinta y tres anios. Jonas llega a su escuela y al estar alli se da cuenta que las cosas
@@ -494,7 +494,7 @@
 
                 </sucesos>
             </episodio>
-            <episodio ep="8" titulo="Lo que se siembra, eso mismo se cosecha" im="ep8.jpg">
+            <episodio ep="8" titulo="Lo que se siembra, eso mismo se cosecha" >
                 <resumen>Charlotte le pregunta a su hija menor si ella sabe que les pudo pasar a sus companieros de clase
                     y ademas quiere que le cuente con detalles como era el sujeto con el que se encontro de regreso a
                     casa; despues de hablar con su hija, Charlotte le pide a su esposo que le diga la verdad y le
@@ -569,7 +569,7 @@
                     </suceso>
                 </sucesos>
             </episodio>
-            <episodio ep="9" titulo="Todo ocurre ahora" im="ep9.jpg">
+            <episodio ep="9" titulo="Todo ocurre ahora">
                 <resumen>Al verse con su hijo; Helge le dice a este que algo va suceder otra vez y tiene que buscar a
                     alguien muy importante para decirle que se detenga. Jonas decide ir hasta la cueva en donde
                     desaparecio Mikkel; sin saber que estaba siendo vigilado. Mientras la doctora examina los cadaveres
@@ -600,7 +600,7 @@
                     </suceso>
                 </sucesos>
             </episodio>
-            <episodio ep="10" titulo="Alfa y omega" im="ep10.jpg">
+            <episodio ep="10" titulo="Alfa y omega" >
                 <resumen>Peter se lleva una gran sorpresa. Jonas descubre la verdad sobre su familia, pero los misterios
                     no han acabado. Helge afronta un sacrificio.
                 </resumen>

@@ -7,9 +7,9 @@
             <head>
                 <meta name="author" content="Nerea Valdés Egocheaga"/>
                 <meta name="description"
-                      content="Proyecto Dark - Junio Software y Estándares para la Web"/>
-                <meta name="keywords" content="SEW,Dark,Junio,Software,Estándares,Web"/>
-                <title>Proyecto Dark - Junio Software y Estándares para la Web</title>
+                      content="Proyecto Estrenos - Junio Software y Estándares para la Web"/>
+                <meta name="keywords" content="SEW,Estrenos,Junio,Software,Estándares,Web"/>
+                <title>Cronologia Proyecto Dark - Junio Software y Estándares para la Web</title>
                 <link rel="stylesheet" type="text/css" href="../css/style.css"/>
             </head>
             <body>

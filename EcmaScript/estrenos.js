@@ -1,6 +1,6 @@
 "use script";
 
-class Dark {
+class Estrenos {
     constructor() {
         this.apiKey = 'a5b8fe70c172015d51961225ca93b6ac';
         this.urlImage = 'https://image.tmdb.org/t/p/w500';
@@ -27,15 +27,13 @@ class Dark {
 
     mostrar(json) {
 
-        $("header").empty();
-        $("main").empty();
-        $("header").append("<h1>" + json.name + "</h1>");
+
         let g = "<h2>";
         for(let i = 0; i < json.genres.length; i++) {
             g += json.genres[i].name+", ";
         }
         this.urlImage+= json.backdrop_path;
-        $("main").append("<section><img src='"+this.urlImage+"' /></section>");
+        $("main").append("<section><img src='"+this.urlImage+"' alt='Jonas Imagen'/></section>");
         g=g+"</h2>";
         $("main").append(g);
         $("main").append("<section><h4>Puntuación: "+ json.vote_average+"</h4>");
@@ -55,5 +53,5 @@ class Dark {
     }
 }
 
-let dark = new Dark();
+let dark = new Estrenos();
 dark.cargarDatos();

@@ -17,7 +17,7 @@ class ReadMultimedia {
                     var url = $(this).find("url").text();
                     var pie = $(this).find("pie").text();
 
-                    var img = '<section><img src="' + url + '" numero="' + numero + '" ></img>';
+                    var img = '<section><img src="' + url + '" numero="' + numero + '" alt="' + pie +'" </img>';
                     img += '<p>' + pie + '</p></section>';
 
                     $('main').append($(img));
